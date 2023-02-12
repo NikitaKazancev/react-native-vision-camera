@@ -19,6 +19,10 @@ interface ITest2 {
   color: string
 }
 
+interface IBranch1 {
+  code: string
+}
+
 interface OnErrorEvent {
   code: string;
   message: string;
