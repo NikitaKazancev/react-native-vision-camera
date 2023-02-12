@@ -19,6 +19,10 @@ class CTest3 {
   a: number = 1;
 }
 
+interface ITest2 {
+  color: string
+}
+
 interface OnErrorEvent {
   code: string;
   message: string;
