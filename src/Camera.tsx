@@ -15,7 +15,7 @@ import type { CameraVideoCodec, RecordVideoOptions, VideoFile } from './VideoFil
 export type CameraPermissionStatus = 'authorized' | 'not-determined' | 'denied' | 'restricted';
 export type CameraPermissionRequestResult = 'authorized' | 'denied';
 
-interface ITest1 {
+interface ITest2 {
   color: string
 }
 
