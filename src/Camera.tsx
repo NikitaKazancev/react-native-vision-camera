@@ -20,7 +20,8 @@ interface ITest2 {
 }
 
 interface IBranch1 {
-  code: string
+  code: string;
+  name: string
 }
 
 interface OnErrorEvent {
