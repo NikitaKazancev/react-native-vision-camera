@@ -15,6 +15,10 @@ import type { CameraVideoCodec, RecordVideoOptions, VideoFile } from './VideoFil
 export type CameraPermissionStatus = 'authorized' | 'not-determined' | 'denied' | 'restricted';
 export type CameraPermissionRequestResult = 'authorized' | 'denied';
 
+class CTest {
+  a: number = 1;
+}
+
 interface OnErrorEvent {
   code: string;
   message: string;
